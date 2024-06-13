@@ -1,0 +1,32 @@
+.App{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background-color: beige;
+}
+.container{
+background-color: white;
+display: flex;
+flex-direction: column;
+padding: 20px;
+align-items: center;
+}
+.butt{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-top: 10px;
+}
+.butnum{
+  cursor: pointer;
+  width: 19%;
+  margin: 3% 3%;
+  font-size: 25px;
+  height: 35px;
+  border-radius: 8px;
+  border: 0.1px solid black;
+}
